@@ -3,6 +3,7 @@ body {
     font-family: "Thasadith", serif;
     display: block;
     margin: 10px;
+    width: 100%;
 }
 
 #container {
