@@ -1,7 +1,71 @@
 body {
-    background: radial-gradient(circle at 10% 20%, rgba(91, 173, 254, 0.46) 0%, rgba(91, 224, 254, 0.46) 47.2%, rgba(170, 254, 235, 0.43) 90%);
-    font-family: "PT Mono", serif;
+    background: radial-gradient(circle at 10% 20%, rgb(0, 102, 161) 0%, rgb(0, 68, 108) 90.1%);
+    font-family: "Thasadith", serif;
+    display: block;
+    margin: 10px;
 }
 
+#container {
+    background: radial-gradient(circle at 10% 20%, rgb(107, 157, 171) 23.8%, rgb(92, 122, 158) 66%);
+    margin: 80px auto ;
+    padding: 30px;
+    max-width: 600px;
+    border-radius: 20px;
+    box-shadow: 8px 8px 4px #235784;
+}
 
-  
+h1 {
+    text-align: center;
+    font-weight: bolder;
+    color: #ecfeff;
+    font-size: 54px;
+}
+
+#change-theme-button {
+    display: block;
+    font-size: 12px;
+    margin:auto;
+    padding: 14px;
+    border-radius: 8px;
+    background: #1b3764;
+    color: #ecfeff;
+    border: 1px solid #1b3764;
+    box-shadow: 2px 2px 6px c;
+
+}
+
+#change-theme-button:hover {
+    background: #ecfeff;
+    color: #1b3764;
+    transition: all 200ms ease-in-out;
+}
+#search-bar {
+
+    background:  #c8d9eb;
+    font-size: 16px;
+    padding: 15px 20px;
+    width: 80%;
+    border-radius: 10px;
+    border: none;
+}  
+
+#submit-button{
+    font-size: 16px;
+    padding: 15px 20px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 10px;
+    color:  #ecfeff;
+    background:  #1b3764;
+}
+
+#submit-button:hover {
+    background: #ecfeff;
+    color: #1b3764;
+    transition: all 200ms ease-in-out;
+}
+
+#city {
+    font-size: 36px;
+}
+
