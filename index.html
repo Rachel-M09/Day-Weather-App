@@ -7,20 +7,21 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Thasadith:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
     <title>Weather App</title>
 </head>
 <body >
   <input id="change-theme-button" type="submit" value="Change Theme">
   <div id="container">
     <header>
-  <H1 id="heading">☁️ 20°C</H1>
+  <H1 id=>☁️ <span id="temperature"></span>°C</H1>
   <form >
     <input id="search-bar" type="search" placeholder="Type in your city..." required>
     <input id="submit-button" type="submit" value="Search">
   </form>
 </header>
 <main>
-<h2 id="city">Johannesburg</h2>
+<h2 id="city"></h2>
 <p id="weather-condition">Monday <span id="time">11:25</span>, Cloudy
 <br>
 Humidity: <strong id="humidity">70%</strong>, Wind: <strong id="wind">4.14km/h</strong>
