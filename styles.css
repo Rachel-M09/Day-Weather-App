@@ -16,11 +16,15 @@ body {
     box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
 }
 
-h1 {
+#temperature-data {
     text-align: center;
     font-weight: bolder;
     color: #ecfeff;
     font-size: 54px;
+    margin-left: 160px;
+
+    
+
 }
 
 #change-theme-button {
@@ -99,4 +103,10 @@ footer {
 
 #time {
   color: #ecfeff;
+}
+
+#icon {
+    height: 80px;
+    width: 90px;
+    margin-bottom: 0px;
 }
