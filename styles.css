@@ -27,24 +27,6 @@ body {
 
 }
 
-#change-theme-button {
-    display: block;
-    font-size: 12px;
-    margin:auto;
-    padding: 14px;
-    border-radius: 8px;
-    background: #1b3764;
-    color: #ecfeff;
-    border: 1px solid #1b3764;
-    box-shadow: 2px 2px 6px c;
-
-}
-
-#change-theme-button:hover {
-    background: #ecfeff;
-    color: #1b3764;
-    transition: all 200ms ease-in-out;
-}
 #search-bar {
 
     background:  #c8d9eb;
@@ -106,7 +88,37 @@ footer {
 }
 
 #icon {
-    height: 80px;
-    width: 90px;
-    margin-bottom: 0px;
+    height: 50px;
+    width: 66px;
+}
+
+#forecast-day{
+    text-align: center;
+    font-weight: bold;
+
+}
+
+#forecast-icon {
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+#forecast-temperatures {
+    text-align: center;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+
+}
+
+#forecast-temperature {
+    color: #ecfeff;
+    margin-right: 10px;
+}
+#weather-forecast-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
